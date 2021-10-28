@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Airbnb Clone</title>
+</head>
+<body>
+
+  <div class="container"> 
+    <div  id="covid_19_update">
+      <a href="https://www.airbnb.com/covid-traveler"> Get the lattest on our COVID-19 response </a>
+    </div>
+    <header id="main_header">
+      <nav  id="main_nav">
+        <div class="logo_container">
+          <img  id="airbnb_logo" src="./img/bg.jpg">
+        </div>
+        <div class="main_link_container">
+          <span><a href="">Places to Stay</a></span>  
+          <span><a href="">Experiences</a></span>  
+          <span><a href="">Online Experiences</a></span>  
+          <span><a href="">Become a Host </a></span>  
+          <span><a href=""><i class="fa fa-globe fa-2x"></i></a></span>  
+          <div class="user_login">
+            <span class="user_menu_icon"> <i class="fa fa-bars fa-2x"></i> </span>  
+            <span class="user_login_icon">  <a href="https://www.airbnb.com/login"> <i class="fa fa-user fa-2x"></i> </a> </span>  
+          </div>
+        </div>
+      </nav>
+      <nav id="second_nav">
+        <div class="second_nav_link">
+          <label> Location </label>
+          <input type="search" placeholder="Where are you going?">
+        </div>
+        <div class="second_nav_link">
+          <label> Check In </label>
+          <input type="text" placeholder="Add date" onfocus="(this.type = 'date')" onblur="(this.type = 'text')">
+        </div>
+        <div class="second_nav_link">
+          <label> Check Out </label>
+          <input type="text" placeholder="Add date" onfocus="(this.type = 'date')" onblur="(this.type = 'text')"> 
+        </div>
+        <div class="second_nav_link">
+          <label> Guest </label>
+          <input type="text" placeholder="Add guest">
+        </div>
+        <div class="search_icon">
+          <span><i class="fa fa-search fa-2x"></i></span>
+        </div>
+      </nav>
+      <div class="page_title">
+        <h1> Go <br> Near </h1>
+        <a href="https://www.airbnb.com/s/homes?location_search=NEARBY&search_type=HOMEPAGE_BANNER" class="explore"> Explore nearby stays </a>
+      </div>
+    </header>
+    <aside id="aside_links_1">
+      <a href="https://www.airbnb.com/s/Lagos/homes?place_id=ChIJwYCC5iqLOxARy9nDZ6OHntw&refinement_paths%5B%5D=%2Fhomes&search_type=section_navigation#DATES" class="aside_links_1_container">
+        <img class="aside_links_1_images" src="./img/bg.jpg">
+        <div class="aside_links_1_mini_details">
+          <span class="city"> Lagos </span>  <br>
+          <span class="time"> 8 hours drive </span>
+        </div>
+      </a>
+      <a href="https://www.airbnb.com/s/Ikeja/homes?place_id=ChIJmTkq-iiSOxAR8KG73UsyqNc&refinement_paths%5B%5D=%2Fhomes&search_type=section_navigation#DATES" class="aside_links_1_container">
+        <img class="aside_links_1_images" src="./img/bg.jpg">
+        <div class="aside_links_1_mini_details">
+          <span class="city"> Ikeja </span>  <br>
+          <span class="time"> 8 hours drive </span>
+        </div>
+      </a>
+      <a href="https://www.airbnb.com/s/Port~Harcourt/homes?place_id=ChIJ40gsn6POaRAR2zKIfd0rVlM&refinement_paths%5B%5D=%2Fhomes&search_type=section_navigation#DATES" class="aside_links_1_container">
+        <img class="aside_links_1_images" src="./img/bg.jpg">
+        <div class="aside_links_1_mini_details">
+          <span class="city"> Port Harcourt </span>  <br>
+          <span class="time"> 2 hours drive </span>
+        </div>
+      </a>
+      <a href="https://www.airbnb.com/s/Osogbo/homes?place_id=ChIJ_bhJyeSHNxARd5L1ABYsxjM&refinement_paths%5B%5D=%2Fhomes&search_type=section_navigation#DATES" class="aside_links_1_container">
+        <img class="aside_links_1_images" src="./img/bg.jpg">
+        <div class="aside_links_1_mini_details">
+          <span class="city"> Osogbo </span>  <br>
+          <span class="time"> 13 miinutes drive </span>
+        </div>
+      </a>
+      <a href="https://www.airbnb.com/s/Enugu/homes?place_id=ChIJJRp9iM-jRBARPQyOkIIuNJ4&refinement_paths%5B%5D=%2Fhomes&search_type=section_navigation#DATES"  class="aside_links_1_container">
+        <img class="aside_links_1_images" src="./img/bg.jpg">
+        <div class="aside_links_1_mini_details">
+          <span class="city"> Enugu </span>  <br>
+          <span class="time"> 8 hours drive </span>
+        </div>
+      </a>
+      <a href="https://www.airbnb.com/s/Uyo/homes?place_id=ChIJUWra-MFXXRARUdR2IqszHuc&refinement_paths%5B%5D=%2Fhomes&search_type=section_navigation#DATES"  class="aside_links_1_container">
+        <img class="aside_links_1_images" src="./img/bg.jpg">
+        <div class="aside_links_1_mini_details">
+          <span class="city"> Uyo </span>  <br>
+          <span class="time"> 3 hours drive </span>
+        </div>
+      </a>
+    </aside>
+    <main  id="main_main">
+      <aside id="aside_links_2">
+        <h2>Live anywhere</h2>
+        <div id="aside_links_2_container">
+          <a href="https://www.airbnb.com/s/homes?ne_lat=28.00927453041205&ne_lng=25.096608294387533&sw_lat=-15.109274530412051&sw_lng=-18.296608294387536&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=2&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" class="aside_links_2_content">
+            <img class="aside_links_2_images" src="./img/bg.jpg">
+            <span> Entire homes </span>
+          </a>
+          <a href="https://www.airbnb.com/s/homes?ne_lat=28.00927453041205&ne_lng=25.096608294387533&sw_lat=-15.109274530412051&sw_lng=-18.296608294387536&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=4&property_type_id%5B%5D=22&property_type_id%5B%5D=60&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" class="aside_links_2_content">
+            <img class="aside_links_2_images" src="./img/bg.jpg">
+            <span> Cabins and cottages </span>
+          </a>
+          <a href="https://www.airbnb.com/s/homes?refinement_paths%5B%5D=%2Fhomes%2Fsection%2FNEARBY_LISTINGS%3A2400&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=5&property_type_id%5B%5D=6&property_type_id%5B%5D=8&property_type_id%5B%5D=10&property_type_id%5B%5D=12&property_type_id%5B%5D=15&property_type_id%5B%5D=16&property_type_id%5B%5D=17&property_type_id%5B%5D=18&property_type_id%5B%5D=19&property_type_id%5B%5D=23&property_type_id%5B%5D=24&property_type_id%5B%5D=25&property_type_id%5B%5D=28&property_type_id%5B%5D=32&property_type_id%5B%5D=34&property_type_id%5B%5D=44&property_type_id%5B%5D=50&property_type_id%5B%5D=54&property_type_id%5B%5D=57&property_type_id%5B%5D=58&property_type_id%5B%5D=61&property_type_id%5B%5D=63&property_type_id%5B%5D=64&property_type_id%5B%5D=66&property_type_id%5B%5D=67&property_type_id%5B%5D=68&property_type_id%5B%5D=69&property_type_id%5B%5D=62&property_type_id%5B%5D=51&title_type=CURATED_PROPERTY_TYPE" class="aside_links_2_content">
+            <img class="aside_links_2_images" src="./img/bg.jpg">
+            <span> Unique stays </span>
+          </a>
+          <a href="https://www.airbnb.com/s/homes?ne_lat=28.00927453041205&ne_lng=25.096608294387533&sw_lat=-15.109274530412051&sw_lng=-18.296608294387536&room_types%5B%5D=Entire%20home%2Fapt&amenities%5B%5D=12&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" class="aside_links_2_content">
+            <img class="aside_links_2_images" src="./img/bg.jpg">
+            <span> Pets welcome </span>
+          </a>
+        </div>
+      </aside>
+      
+      <div id="main_grid_container">
+        <header>
+          <div class="online_experience">
+            <h3> Online Experiences for the Holidays </h3>
+            <h5> Interactive activities we can do together, led by a one-of-a-kind hosts </h5>
+          </div>
+          <div>
+           <a href="https://www.airbnb.com/s/experiences?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences%2FKG%2FTag%3A6951&click_referer=t%3ASEE_ALL%7Csid%3A7c25b29d-9836-4b56-9da3-1adbe66b4ee1%7Cst%3ADEFAULT_EARHART_INSERT_ITEM_SECTION">  <button id="explore" > Explore <i class="fa fa-user"></i> </button>  </a>
+          </div>
+        </header>
+        <div id="grid_template_areas">
+          <a href="https://www.airbnb.com/experiences/1693868" class="grid_area_1">
+            <img class="grid_area_images" src="./img/bg.jpg">
+            <span> Enjoy Santa stories with children's book author </span>
+          </a>
+          <a href="https://www.airbnb.com/experiences/1677563" class="grid_area_2">
+            <img class="grid_area_images" src="./img/bg.jpg">
+            <span> Discover spiced wine with an archaeologist </span>
+          </a> 
+          <a href="https://www.airbnb.com/experiences/2071540" class="grid_area_3">
+            <img class="grid_area_images" src="./img/bg.jpg">
+            <span> Sing Holiday song with a broadway star </span>
+          </a>
+        </div>
+      </div>
+      <div id="adsense_container">
+        <h3> Still after that perfect gift? </h3>
+        <h6> Supprise them with an Airbnb gift card. </h6>
+        <a href="https://www.airbnb.com/d/gift-cards" > <button id="airbnb_gift_card">  Learn more </button>  </a>
+      </div>
+      
+      <aside id="aside_links_3">
+        <h2>Join million of host on Airbnb </h2>
+        <div id="aside_links_3_container">
+          <a href="https://www.airbnb.com/host/homes" class="aside_links_3_content">
+            <img class="aside_links_3_images" src="./img/bg.jpg">
+            <span> Host your homes </span>
+          </a>
+          <a href="https://www.airbnb.com/d/onlinehost" class="aside_links_3_content">
+            <img class="aside_links_3_images" src="./img/bg.jpg">
+            <span> Host an Online Experience </span>
+          </a>
+          <a href="https://www.airbnb.com/host/experiences" class="aside_links_3_content">
+            <img class="aside_links_3_images" src="./img/bg.jpg">
+            <span> Host and Experience </span>
+          </a>
+        </div>
+      </aside>
+    </main>
+    
+    
+    <div id="quick_links">
+      <h2> Inspiration for future gateway </h2>
+      <div id="quick_links_container">
+        <div id="quick_links_nav_links">
+          <span class="quick_links_nav_link active" onclick="displayQuickLinks(event, 'destinations_for_arts_and_culture')"> Destinations for arts &amp; culture </span>
+          <span class="quick_links_nav_link" onclick="displayQuickLinks(event, 'destinations_for_outdoor_adventure')"> Destinations for outdoor adventure </span>
+          <span class="quick_links_nav_link" onclick="displayQuickLinks(event, 'mountain_cabins')"> Mountain cabins </span>
+          <span class="quick_links_nav_link" onclick="displayQuickLinks(event, 'beach_destinations')"> Beach destinations </span>
+          <span class="quick_links_nav_link" onclick="displayQuickLinks(event, 'popular_destinations')"> Popular destinations </span>
+        </div>
+        <div class="quick_links_nav_contents" id="destinations_for_arts_and_culture"> 
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/new-york-ny/stays">  <span class="top"> New York </span>   <span class="bottom"> New York </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/phoenix-az/stays">  <span class="top"> Phoenix </span>   <span class="bottom"> Arizona </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/atlanta-ga/stays">  <span class="top"> Atlanta </span>   <span class="bottom"> Georgia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/chicago-il/stays">  <span class="top"> Chicago </span>   <span class="bottom"> Illinois </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/miami-fl/stays">  <span class="top"> Miami </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/san-diego-ca/stays">  <span class="top"> San Diego </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/san-francisco-ca/stays">  <span class="top"> San Francisco </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/nashville-tn/stays">  <span class="top"> Nashville </span>   <span class="bottom"> Tennessee </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/seattle-wa/stays">  <span class="top"> Seattle </span>   <span class="bottom"> Washington </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/boston-ma/stays">  <span class="top"> Boston </span>   <span class="bottom"> Massachusetts </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/philadelphia-pa/stays">  <span class="top"> Philadelphia </span>   <span class="bottom"> Pennsylvania </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/dallas-tx/stays">  <span class="top"> Dallas </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/austin-tx/stays">  <span class="top"> Austin </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/washington-dc/stays">  <span class="top"> Washington </span>   <span class="bottom"> District of Colombia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/new-orleans-la/stays">  <span class="top"> New Orleans </span>   <span class="bottom"> Louisiana </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/san-antonio-tx/stays">  <span class="top"> San Antonio </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/houston-tx/stays"> <span class="top"> Houston </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/los-angeles-ca/stays">  <span class="top"> Los Angeles </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/london-united-kingdom/stays">  <span class="top"> London </span>   <span class="bottom"> United Kingdom </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/paris-france/stays">  <span class="top"> Paris </span>   <span class="bottom"> France </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/memphis-tn/stays">  <span class="top"> Memphis </span>   <span class="bottom"> Tennessee </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/rome-italy/stays">  <span class="top"> Rome </span>   <span class="bottom"> Italy </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/barcelona-spain/stays">  <span class="top"> Barcelona </span>   <span class="bottom"> Spain </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/amsterdam-netherlands/stays">  <span class="top"> Amsterdam </span>   <span class="bottom"> Netherlands </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lexington-ky/stays">  <span class="top"> Lexington </span>   <span class="bottom"> Kentucky </span>  </a>  </div>
+        </div> 
+        <div class="quick_links_nav_contents" id="destinations_for_outdoor_adventure"> 
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/big-bear-lake-ca/stays">  <span class="top"> Big Bear Lak </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/ruidoso-nm/stays">  <span class="top"> Ruidoso </span>   <span class="bottom"> New Mexico </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-powell/stays">  <span class="top"> Lake Powell </span>   <span class="bottom"> United States </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/branson-mo/stays">  <span class="top"> Brason </span>   <span class="bottom"> Missouri </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-tahoe/stays">  <span class="top"> Lake Tahoe </span>   <span class="bottom"> United States </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/south-lake-tahoe-ca/stays">  <span class="top"> South Lake Tahoe </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/hot-springs-ar/stays">  <span class="top"> Hot Springs </span>   <span class="bottom"> Arkansas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/shaver-lake-ca/stays">  <span class="top"> Shaver Lake </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/sevierville-tn/stays">  <span class="top"> Sovierville </span>   <span class="bottom"> Tennessee </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-arrowhead-ca/stays">  <span class="top"> Lake Arrowhead </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/portland-or/stays">  <span class="top"> Portland </span>   <span class="bottom"> Oregon </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-george-ny/stays">  <span class="top"> Lake George </span>   <span class="bottom"> New York </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/bryce-canyon-city-ut/stays">  <span class="top"> Bryce Canyon </span>   <span class="bottom"> Utah </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/denver-co/stays">  <span class="top"> Denver </span>   <span class="bottom"> Colorado </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/colorado-springs-co/stays">  <span class="top"> Colorado Springs </span>   <span class="bottom"> Colorado </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/highlands-nc/stays">  <span class="top"> Highlands </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/yellowstone-national-park-wy/stays">  <span class="top"> Yellowstone National Park </span>   <span class="bottom"> Wyonming </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-placid-ny/stays">  <span class="top"> Lake Placid </span>   <span class="bottom"> New York </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-buena-vista-fl/stays">  <span class="top"> Lake Bueno Vista </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/oak-island-nc/stays">  <span class="top"> Oak Island </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/blue-ridge-ga/stays">  <span class="top"> Blue Ridge </span>   <span class="bottom"> Georgia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/deep-creek-lake-md/stays">  <span class="top"> Deep Creek Lake </span>   <span class="bottom"> Maryland </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/torch-lake-mi/stays">  <span class="top"> Torch Lake </span>   <span class="bottom"> Michigan </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/bald-head-island-nc/stays">  <span class="top"> Bald Head Island </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/four-corners-fl/stays">  <span class="top"> Four Corners </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-delton-wi/stays">  <span class="top"> Lake Delton </span>   <span class="bottom"> Wisconsin </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/brown-county-in/stays">  <span class="top"> Brown County </span>   <span class="bottom"> Indiana </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/wisconsin-dells-wi/stays">  <span class="top"> Wisconsin Dells </span>   <span class="bottom"> Wisconsin </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-ozark-mo/stays">  <span class="top"> Lake Ozark </span>   <span class="bottom"> Missouri </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/lake-michigan/stays">  <span class="top"> Lake Michigan </span>   <span class="bottom"> United States </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/idyllwild-pine-cove-ca/stays">  <span class="top"> Idyllwild-Pine Cove </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/fayetteville-ar/stays">  <span class="top"> Fayetteville </span>   <span class="bottom"> Arkansas </span>  </a>  </div>
+        </div> 
+        <div class="quick_links_nav_contents" id="mountain_cabins"> 
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/gatlinburg-tn/stays">  <span class="top"> Gatlinburg </span>   <span class="bottom"> Tennessee </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/pigeon-forge-tn/stays">  <span class="top"> Pigeon Forge </span>   <span class="bottom"> Tennessee </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/broken-bow-ok/stays">  <span class="top"> Broken Bow </span>   <span class="bottom"> Oklahoma </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/helen-ga/stays">  <span class="top"> Helen </span>   <span class="bottom"> Georgia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/asheville-nc/stays">  <span class="top"> Asheville </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/eureka-springs-ar/stays">  <span class="top"> Eureka Springs </span>   <span class="bottom"> Arkansas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/yosemite-valley-ca/stays">  <span class="top"> Yosemite </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/boone-nc/stays">  <span class="top"> Boone </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/cherokee-nc/stays">  <span class="top"> Cherokee </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/angel-fire-nm/stays">  <span class="top"> Angel Fire </span>   <span class="bottom"> New Mexico </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/sequoia-national-forest-ca/stays">  <span class="top"> Sequoia National Forest </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/park-city-ut/stays">  <span class="top"> Park City </span>   <span class="bottom"> Utah </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/flagstaff-az/stays">  <span class="top"> Flagstaff </span>   <span class="bottom"> Arizona </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/sedona-az/stays">  <span class="top"> Sedona </span>   <span class="bottom"> Arizona </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/west-glacier-mt/stays">  <span class="top"> Glacier National Parks </span>   <span class="bottom"> Montana </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/greenville-sc/stays">  <span class="top"> Greenville </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/jackson-hole-wy/stays">  <span class="top"> Jackson Hole </span>   <span class="bottom"> Wyoming </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/breckenridge-co/stays">  <span class="top"> Breckenridge </span>   <span class="bottom"> Colorado </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/great-smoky-mountains/stays">  <span class="top"> Great Smoky Mountains </span>   <span class="bottom"> United States </span>  </a>  </div>
+        </div> 
+        <div class="quick_links_nav_contents" id="beach_destinations"> 
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/panama-city-beach-fl/stays">  <span class="top"> Panama City Beach </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/myrtle-beach-sc/stays">  <span class="top"> Myrtle Beach </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/ocean-city-md/stays">  <span class="top"> Ocean City </span>   <span class="bottom"> Maryland </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/siesta-key-fl/stays">  <span class="top"> Siesta Key </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/pensacola-beach-fl/stays">  <span class="top"> Pensacola Beach </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/galveston-tx/stays">  <span class="top"> Galveston </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/fort-lauderdale-fl/stays">  <span class="top"> Fort Lauderdale </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/miami-beach-fl/stays">  <span class="top"> Miami Beach </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/naples-fl/stays">  <span class="top"> Naples </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/south-padre-island-tx/stays">  <span class="top"> South Padre Island </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/tampa-fl/stays">  <span class="top"> Tampa </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/tybee-island-ga/stays">  <span class="top"> Tybee Island </span>   <span class="bottom"> Georgia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/honolulu-hi/stays">  <span class="top"> Honolulu </span>   <span class="bottom"> Hawaii </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/key-west-fl/stays">  <span class="top"> Key West </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/aruba/stays">  <span class="top"> Aruba </span>   <span class="bottom">  </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/virginia-beach-va/stays">  <span class="top"> Virginia Beach </span>   <span class="bottom"> Virginia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/jamaica/stays">  <span class="top"> Jamaica </span>   <span class="bottom">  </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/costa-rica/stays">  <span class="top"> Costa Rica </span>   <span class="bottom">  </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/cabo-san-lucas-mexico/stays">  <span class="top"> Cabo San Lucas </span>   <span class="bottom"> Mexico </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/palm-springs-ca/stays">  <span class="top"> Palm Strings </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/the-bahamas/stays">  <span class="top"> Bahamas </span>   <span class="bottom">  </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/cancun-mexico/stays">  <span class="top"> Cancún </span>   <span class="bottom"> Mexico </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/gulf-shores-al/stays">  <span class="top"> Golf Shores </span>   <span class="bottom"> Alabama </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/hilton-head-island-sc/stays">  <span class="top"> Hilton Head Island </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/big-sur-ca/stays">  <span class="top"> Big Sur </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/punta-cana-dominican-republic/stays">  <span class="top"> Punta Cana </span>   <span class="bottom"> Dominican Republic </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/key-largo-fl/stays">  <span class="top"> Key Largo </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/long-beach-ca/stays">  <span class="top"> Long Beach </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/rehoboth-beach-de/stays">  <span class="top"> Rehoboth Beach </span>   <span class="bottom"> Delaware </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/newport-beach-ca/stays">  <span class="top"> Newport Beach </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/destin-fl/stays">  <span class="top"> Destin </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/cape-may-nj/stays">  <span class="top"> Cape May </span>   <span class="bottom"> New Jersey </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/port-aransas-tx/stays">  <span class="top"> Port Aransas </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/folly-beach-sc/stays">  <span class="top"> Folly Beach </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/fort-walton-beach-fl/stays">  <span class="top"> Fort Walton Beach </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/clearwater-fl/stays">  <span class="top"> Clearwater </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/seaside-or/stays">  <span class="top"> Seaside </span>   <span class="bottom"> Oregon </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/nags-head-nc/stays">  <span class="top"> Nags Head </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/jersey-shore-nj/stays">  <span class="top"> Jersey Shore </span>   <span class="bottom"> New Jersey </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/crescent-city-ca/stays">  <span class="top"> Crescent City </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/isle-of-palms-sc/stays">  <span class="top"> Isle of Palms </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/sea-ranch-ca/stays">  <span class="top"> Sea Ranch </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/rosemay-beach-fl/stays">  <span class="top"> Rosemary Beach </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/holden-beach-nc/stays">  <span class="top"> Holden Beach </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/ocean-isle-beach-nc/stays">  <span class="top"> Ocean Isle Beach </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/kihei-hi/stays">  <span class="top"> Kihei </span>   <span class="bottom"> Huwaii </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/wilmington-nc/stays">  <span class="top"> Wilmington </span>   <span class="bottom"> Noth Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/daytona-beach-fl/stays">  <span class="top"> Daytona Beach </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/cape-cod-ma/stays">  <span class="top"> Cape Cod </span>   <span class="bottom"> Massachusetts </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/florida-keys-fl/stays">  <span class="top"> Florida Keys </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/sanibel-island-fl/stays">  <span class="top"> Sanibel </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/anna-maria-island-fl/stays">  <span class="top"> Anna Maria Island </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/orange-beach-al/stays">  <span class="top"> Orange Beach </span>   <span class="bottom"> Alabama </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/north-myrtle-beach-sc/stays">  <span class="top"> North Myrtle Beach </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/corpus-christi-tx/stays">  <span class="top"> Corpus Christi </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/maui-hi/stays">  <span class="top"> Maui </span>   <span class="bottom"> Huwaii </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/outer-banks-nc/stays">  <span class="top"> Outer Banks </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/kauai-hi/stays">  <span class="top"> Kauai </span>   <span class="bottom"> Huwaii </span>  </a>  </div>
+        </div> 
+        <div class="quick_links_nav_contents" id="popular_destinations"> 
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/orlando-fl/stays">  <span class="top"> Orlando </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/las-vegas-nv/stays">  <span class="top"> Las Vegas </span>   <span class="bottom"> Nevada </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/atlantic-city-nj/stays">  <span class="top"> Atlantic City </span>   <span class="bottom"> New Jersey </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/dubai-united-arab-emirates/stays">  <span class="top"> Dubai </span>   <span class="bottom"> United Arab Emirates </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/indianapolis-in/stays">  <span class="top"> Indianapolis </span>   <span class="bottom"> Indiana </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/springfield-mo/stays">  <span class="top"> Springfield </span>   <span class="bottom"> Missouri </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/hershey-pa/stays">  <span class="top"> Hershey </span>   <span class="bottom"> Pennsylvania </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/dublin-ireland/stays">  <span class="top"> Dublin </span>   <span class="bottom"> Ireland </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/cleveland-oh/stays">  <span class="top"> Cleveland </span>   <span class="bottom"> Ohio </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/san-jose-ca/stays">  <span class="top"> San Jose </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/st-louis-mo/stays">  <span class="top"> St. Louis </span>   <span class="bottom"> Missouri </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/anaheim-ca/stays">  <span class="top"> Anaheim </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/reno-nv/stays">  <span class="top"> Reno </span>   <span class="bottom"> Nevada </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/pittsburgh-pa/stays">  <span class="top"> Pittsburgh </span>   <span class="bottom"> Pennsylvania </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/st-augustine-fl/stays">  <span class="top"> St. Augustine </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/scottsdale-az/stays">  <span class="top"> Scottsdale </span>   <span class="bottom"> Arizona </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/detroit-mi/stays">  <span class="top"> Detroit </span>   <span class="bottom"> Michigan </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/toronto-canada/stays">  <span class="top"> Toronto </span>   <span class="bottom"> Canada </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/vancouver-canada/stays">  <span class="top"> Vancouver </span>   <span class="bottom"> Canada </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/baltimore-md/stays">  <span class="top"> Baltimore </span>   <span class="bottom"> Maryland </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/charleston-sc/stays">  <span class="top"> Charleston </span>   <span class="bottom"> South Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/kansas-city-mo/stays">  <span class="top"> Kansas City </span>   <span class="bottom"> Missouri </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/charlotte-nc/stays">  <span class="top"> Charlotte </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/minneapolis-mn/stays">  <span class="top"> Minneapolis </span>   <span class="bottom"> Minnesota </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/savannah-ga/stays">  <span class="top"> Savannah </span>   <span class="bottom"> Georgia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/montreal-canada/stays">  <span class="top"> Montreal </span>   <span class="bottom"> Canada </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/jacksonville-fl/stays">  <span class="top"> Jacksonville </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/riverside-ca/stays">  <span class="top"> Riverside </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/hong-kong/stays">  <span class="top"> Hong Kong </span>   <span class="bottom">  </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/arlington-va/stays">  <span class="top"> Arlington </span>   <span class="bottom"> Virginia </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/wildwood-nj/stays">  <span class="top"> Wildwood </span>   <span class="bottom"> New Jersey </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/columbus-oh/stays">  <span class="top"> Colombus </span>   <span class="bottom"> Ohio </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/kissimmee-fl/stays">  <span class="top"> Kissimmee </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/louisville-ky/stays">  <span class="top"> Louisville </span>   <span class="bottom"> Kentucky </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/davis-ca/stays">  <span class="top"> Davis </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/chula-vista-ca/stays">  <span class="top"> Chula Vista </span>   <span class="bottom"> California </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/ashford-wa/stays">  <span class="top"> Ashford </span>   <span class="bottom"> Washington </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/the-villages-fl/stays">  <span class="top"> The Villages </span>   <span class="bottom"> Florida </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/kyoto-japan/stays">  <span class="top"> Kyoto </span>   <span class="bottom"> Japan </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/fredericksburg-tx/stays">  <span class="top"> Fredericksburg </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/ontario-canada/stays">  <span class="top"> Ontario </span>   <span class="bottom"> Canada </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/apex-nc/stays">  <span class="top"> Apex </span>   <span class="bottom"> North Carolina </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/concan-tx/stays">  <span class="top"> Concan </span>   <span class="bottom"> Texas </span>  </a>  </div>
+          <div class="quick_links_nav_content">  <a href="https://www.airbnb.com/montville-australia/stays">  <span class="top"> Montville </span>   <span class="bottom"> Australia </span>  </a>  </div>
+        </div> 
+      </div>
+    </div>
+    
+    
+    
+    <footer  id="page_footer">
+      <div id="page_footer_1">
+        <div id="about_links" class="page_footer_1_nav_container">
+          <h4> About </h4>
+          <div class="page_footer_1_nav_contents">
+            <span> <a href="https://www.airbnb.com/d/howairbnbworks"> How Airbnb works </a> </span> 
+            <span> <a href="https://www.airbnb.com/press/news"> Newsroom </a> </span>  
+            <span> <a href="https://investors.airbnb.com/"> Investors </a> </span>
+            <span> <a href="https://www.airbnb.com/plus"> Airbnb Plus </a> </span>  
+            <span> <a href="https://www.airbnb.com/luxury"> Airbnb Luxe </a> </span>  
+            <span> <a href="https://www.hoteltonight.com/?utm_source_name=Airbnb&utm_campaign_name=Dr_Us_Web_Airbnb_Footer"> HotelTonight </a> </span>
+            <span> <a href="https://www.airbnb.com/work?s=footer"> Airbnb for Work </a> </span> 
+            <span> <a href="https://www.airbnb.com/d/olympics"> Olympics </a> </span>  
+            <span> <a href="https://www.airbnb.com/careers"> Careers </a> </span>
+          </div>
+        </div>
+        <div id="community_links" class="page_footer_1_nav_container">
+          <h4> Community </h4>
+          <div class="page_footer_1_nav_contents">
+            <span> <a href="https://www.airbnb.com/diversity"> Diversity &amp; Belonging </a> </span>  
+            <span> <a href="https://www.airbnb.com/accessibility"> Accessibility </a> </span>  
+            <span> <a href="https://www.airbnb.com/associates?from=footer"> Airbnb Associates </a> </span>
+            <span> <a href="https://www.airbnb.com/d/covid19relief"> Frontline Stays </a> </span>  
+            <span> <a href="https://www.airbnb.com/invite?r=6"> Invite Friends </a> </span>  
+            <span> <a href="https://www.airbnb.com/gift-cards"> Gift Cards </a> </span>
+            <span> <a href="https://www.airbnb.org/?locale=en"> Airbnb.org </a> </span>   
+          </div>
+        </div>
+        <div id="host_links" class="page_footer_1_nav_container">
+          <h4> Host </h4>
+          <div class="page_footer_1_nav_contents">
+            <span> <a href="https://www.airbnb.com/host/homes?from_footer=1"> Host your home </a> </span>  
+            <span> <a href="https://www.airbnb.com/d/onlinehost"> Host an Online Experience </a> </span>  
+            <span> <a href="https://www.airbnb.com/host/experiences"> Host an Experience </a> </span>
+            <span> <a href="https://www.airbnb.com/help/responsible-hosting"> Responsible hosting </a> </span>  
+            <span> <a href="https://www.airbnb.com/resources"> Resource Center </a> </span>  
+            <span> <a href="https://www.airbnb.com/help/community?s=footer"> Community Center </a> </span>
+          </div>
+        </div> 
+        <div id="support_links" class="page_footer_1_nav_container">
+          <h4> Support </h4>
+          <div class="page_footer_1_nav_contents">
+            <span> <a href="https://www.airbnb.com/d/covidsafety"> Our COVID-19 responses </a> </span>  
+            <span> <a href="https://www.airbnb.com/help?from=footer"> Help Center </a> </span>  
+            <span> <a href="https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19"> Cancellation options </a> </span>
+            <span> <a href="https://www.airbnb.com/neighbors"> Neighborhood Support </a> </span>  
+            <span> <a href="https://www.airbnb.com/trust"> Trust &amp; Safety </a> </span>   
+          </div>
+        </div>
+      </div> 
+      <div id="main_footer">
+        <div class="main_footer_first_child">
+          <span> <a href="https://www.airbnb.com/account-settings/language"> <i class="fa fa-globe"></i> English (US) </a> </span>
+          <span> <a href="https://www.airbnb.com/account-settings/currency"> <i class="fa fa-dollar"></i> USD </a> </span>
+          <span class="social_media_icons">  
+            <a href="https://www.facebook.com/airbnb"> <i class="fa fa-facebook"></i> </a>
+            <a href="https://twitter.com/airbnb"> <i class="fa fa-twitter"></i> </a>
+            <a href="https://instagram.com/airbnb"> <i class="fa fa-instagram"></i> </a>
+          </span>
+        </div>
+        <div class="main_footer_second_child copy_right"> &copy; 2020, Airbnb inc. All right reserved </div>
+        <div class="main_footer_third_child"> 
+          <span class="privacy"> <a href="https://www.airbnb.com/terms/privacy_policy"> Privacy </a> </span>
+          <span class="space"> | </span>
+          <span class="terms_and_conditions"> <a href="https://www.airbnb.com/terms"> Terms </a> </span>
+          <span class="space"> | </span>
+          <span class="sitemap"> <a href="https://www.airbnb.com/sitemaps/v2"> Sitemap </a> </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <!-- <div class="carbon_copy">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+    <img src="./img/bg.jpg">
+  </div>  -->
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
